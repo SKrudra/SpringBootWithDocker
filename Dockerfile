@@ -1,3 +1,3 @@
 FROM openjdk:latest
-ADD target/demo.jar demo.jar
-ENTRYPOINT ["java", "-jar", "/demo.jar"]
+ADD target/student-demo.jar student-demo.jar
+ENTRYPOINT ["java", "-jar", "/student-demo.jar"]
